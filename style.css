@@ -1,0 +1,9 @@
+body {
+  background: #1d1f20;
+  color: white;
+}
+
+table tbody {
+  background: white;
+  color: black;
+}

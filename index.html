@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - GST Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<p>
+  Item Price:
+  <input type="text" id="txtMoney" value="3800.00">
+</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Criteria</th>
+      <th>Inclusive</th>
+      <th>Exclusive</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Taxable Amount</td>
+      <td id="tdTaxableInc"></td>
+      <td id="tdTaxableExc"></td>
+    </tr>
+    <tr>
+      <td>GST</td>
+      <td id="tdGSTInc"></td>
+      <td id="tdGSTExc"></td>
+    </tr>
+    <tr>
+      <td>Sales Amount</td>
+      <td id="tdSalesInc"></td>
+      <td id="tdSalesExc"></td>
+    </tr>
+  </tbody>
+</table>
+<!-- partial -->
+  <script src='https://cdn.rawgit.com/MikeMcl/decimal.js/784a38a8/decimal.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
